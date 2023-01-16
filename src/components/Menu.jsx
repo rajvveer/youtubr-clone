@@ -90,7 +90,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
       <Wrapper>
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Logo>
-            <Img src={LamaTube} />
+            <Img src={MyTube} />
             MyTube
           </Logo>
         </Link>
