@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import LamaTube from "../img/logo.png";
+import MyTube from "../img/logo.png";
 import HomeIcon from "@mui/icons-material/Home";
 import ExploreOutlinedIcon from "@mui/icons-material/ExploreOutlined";
 import SubscriptionsOutlinedIcon from "@mui/icons-material/SubscriptionsOutlined";
@@ -91,13 +91,15 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Logo>
             <Img src={LamaTube} />
-            LamaTube
+            MyTube
           </Logo>
         </Link>
+<Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
         <Item>
           <HomeIcon />
           Home
         </Item>
+</Link>
         <Link to="trends" style={{ textDecoration: "none", color: "inherit" }}>
           <Item>
             <ExploreOutlinedIcon />
@@ -137,7 +139,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
             <Hr />
           </>
         }
-        <Title>BEST OF LAMATUBE</Title>
+        <Title>BEST OF MyTUBE</Title>
         <Item>
           <LibraryMusicOutlinedIcon />
           Music
